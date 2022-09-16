@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   
+    <div class="card">
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img">
+                <img src="Imagenes/juez7.png" alt="">
+            </div>
+        </div>
+
+        <div class="description">
+            <h3>Jurado 1</h3>
+            <h4>System Engineer</h4>
+           
+            
+        </div>
+
+        <div class="select">
+          <select id="Jurado1" >
+            <option value="Elegir" >--Elegir</option>
+             <option value="roja" id="jurado1Rojo">Luz roja</option>
+             <option value="Verde" id="jurado1Verde">Luz Verde</option>
+        </select>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img">
+                <img src="Imagenes/juez6.png" alt="">
+            </div>
+        </div>
+
+        <div class="description">
+            <h3>Jurado 2</h3>
+            <h4>System Engineer</h4>
+            
+        </div>
+
+        <div class="select">
+          <select id="Jurado2">
+            <option value="Elegir" >--Elegir</option>
+             <option value="roja" id="jurado1Rojo">Luz roja</option>
+             <option value="Verde" id="jurado1Verde">Luz Verde</option>
+        </select>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="head">
+            <div class="circle"></div>
+            <div class="img">
+                <img src="Imagenes/juez5.png" alt="">
+            </div>
+        </div>
+
+        <div class="description">
+            <h3>Jurado 3</h3>
+            <h4>System Engineer</h4>
+            
+        </div>
+
+        <div class="select">
+          <select id="Jurado3">
+            <option value="Elegir" >--Elegir</option>
+             <option value="roja" id="jurado1Rojo">Luz roja</option>
+             <option value="Verde" id="jurado1Verde">Luz Verde</option>
+        </select>
+        </div>
+    </div>
+  
+
+    <div class="boton">
+      <button style="background-color: #008BB5; color: white; border: none; padding: 5px;"  type="button" class="btn btn-primary"  onclick="validar()">VALIDAR</button>
+    </div>
+
+     
+    <script src="validacion.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</body>
+</html>
